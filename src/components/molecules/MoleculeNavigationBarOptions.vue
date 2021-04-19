@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li><atom-header-link :name="'Inicio'" :to="'/'" /></li>
-    <li><atom-header-link :name="'Directorio Anime'" :to="'/'" /></li>
+    <li><atom-header-link :name="'Directorio Anime'" :to="'/directorio'" /></li>
   </ul>
 </template>
 

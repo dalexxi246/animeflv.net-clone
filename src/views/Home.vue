@@ -1,5 +1,5 @@
 <template>
-  <template-with-main-nav-bar></template-with-main-nav-bar>
+  <template-with-main-nav-bar />
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="to"><span>{{ name }}</span></router-link>
+  <router-link :to="to">{{ name }}</router-link>
 </template>
 
 <script>
@@ -11,14 +11,10 @@ export default {
 
 <style scoped>
 a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-/* unvisited link */
-a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
   color: rgb(146, 146, 146);
 }
 
