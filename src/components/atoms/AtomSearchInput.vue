@@ -1,8 +1,8 @@
 <template>
   <b-nav-form>
     <b-form-input size="sm" class="mr-sm-2" placeholder="Buscar" />
-    <b-button size="sm" class="my-2 my-sm-0" type="submit">
-      <b-icon icon="search" variant="light"/>
+    <b-button size="sm" class="my-2 my-sm-0" pill type="submit">
+      <b-icon icon="search" variant="light" />
     </b-button>
   </b-nav-form>
 </template>
@@ -37,7 +37,7 @@ input::placeholder {
   color: white;
 }
 form {
-  border-radius: 25px;
+  border-radius: 20px;
   background: #252a2e;
   padding: 2px 8px;
 }
