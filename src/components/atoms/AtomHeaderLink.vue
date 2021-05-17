@@ -14,7 +14,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   color: rgb(146, 146, 146);
 }
 
