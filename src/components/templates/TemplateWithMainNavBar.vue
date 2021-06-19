@@ -4,18 +4,23 @@
     <div class="container mt-3">
       <b-row>
         <b-col cols="3"><organism-sidebar /></b-col>
-        <b-col cols="9">Main</b-col>
+        <b-col cols="9"><organism-latest-episodes /></b-col>
       </b-row>
     </div>
   </div>
 </template>
 
 <script>
+import OrganismLatestEpisodes from "../organisms/OrganismLatestEpisodes.vue";
 import OrganismNavigationBar from "../organisms/OrganismNavigationBar.vue";
 import OrganismSidebar from "../organisms/OrganismSidebar.vue";
 
 export default {
-  components: { OrganismNavigationBar, OrganismSidebar },
+  components: {
+    OrganismNavigationBar,
+    OrganismSidebar,
+    OrganismLatestEpisodes,
+  },
   name: "TemplateWithMainNavBar",
 };
 </script>
