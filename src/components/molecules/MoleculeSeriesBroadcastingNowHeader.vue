@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="row">
-      <span id="">ANIMES EN EMISIÓN</span>
-      <img src="vector_play" alt="vector_play" srcset="vector_play" />
+    <div class="my-2">
+      <span class="col-10 text-start">ANIMES EN EMISIÓN</span>
+      <b-icon class="col-2" icon="play-fill" />
     </div>
-    <ul>
+    <ul class="list-unstyled">
       <li v-for="show in shows" :key="show.id">
         <atom-show-broadcasting-now :name="show.name" :showType="show.type" />
       </li>
@@ -40,5 +40,5 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 </style>

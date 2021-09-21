@@ -3,8 +3,8 @@
     <organism-navigation-bar />
     <div class="container mt-3">
       <b-row>
-        <b-col cols="3"><organism-sidebar /></b-col>
-        <b-col cols="9"><organism-latest-episodes /></b-col>
+        <b-col cols="4"><organism-sidebar /></b-col>
+        <b-col cols="8"><organism-latest-episodes /></b-col>
       </b-row>
     </div>
   </div>
